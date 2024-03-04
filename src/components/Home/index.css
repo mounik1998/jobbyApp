@@ -1,0 +1,43 @@
+.mainCon3 {
+  width: 100vw;
+  background-color: #272727;
+  height: 100vh;
+}
+
+.homeHead {
+  color: white;
+  font-size: 70px;
+}
+
+.subCon2 {
+  padding: 25px;
+}
+
+.paraText {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+.buttonFindJobs {
+  color: white;
+  width: 200px;
+  border-radius: 7px;
+  background-color: #6366f1;
+  border-width: 0px;
+  height: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .homeHead {
+    font-size: 40px;
+  }
+
+  .paraText {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .subCon2 {
+    padding-top: 50px;
+  }
+}

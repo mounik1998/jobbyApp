@@ -1,0 +1,58 @@
+.fontColor {
+  color: white;
+}
+
+.backGroundColor {
+  background-color: #272727;
+  padding: 15px;
+  padding-top: 100px;
+}
+
+.companyLogo2 {
+  height: 100px;
+  width: 100px;
+}
+.logoDescriptionAlign {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+}
+.icon {
+  margin-right: 8px;
+}
+
+.listItemsDotsRemove {
+  list-style-type: none;
+}
+.skillLogo {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin: 25px;
+}
+
+.skillName {
+  padding-left: 20px;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .similarJobs {
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+  .eachSimilarJobCon {
+    width: 300px;
+    margin: 25px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 15px;
+  }
+}

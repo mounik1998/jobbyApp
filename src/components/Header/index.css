@@ -1,0 +1,53 @@
+.mainCon2 {
+  display: flex;
+  width: 100vw;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding: 25px;
+  background-color: #2c364c;
+  position: fixed;
+}
+
+.listItems {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.listName {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.button1 {
+  width: 150px;
+  border-radius: 7px;
+  background-color: #6366f1;
+  border-width: 0px;
+  height: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .listName {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  .mainCon2 {
+    height: 7%;
+    padding: 15px;
+  }
+  img {
+    height: 25px;
+    width: 100px;
+  }
+  .button1 {
+    height: 25px;
+    width: 75px;
+    color: white;
+    font-size: 12px;
+  }
+}
